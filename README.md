@@ -26,3 +26,8 @@ CBC/OFB Mode Implementation:
 - Selected and implemented either the Cipher Block Chaining (CBC) or Output Feedback Mode (OFB) for AES encryption.
 - Configured the coprocessor hardware interface and software driver to support the chosen mode of operation.
 - Implemented additional functionality for managing IVs, chaining ciphertext blocks, and handling feedback mechanisms according to the selected AES mode
+
+
+Test Output:
+![image](https://github.com/user-attachments/assets/cb68093c-8811-49fa-90e2-ad7b6ce610ab)
+
