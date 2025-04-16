@@ -1,0 +1,30 @@
+// my_aes_ip.v
+
+// This file was auto-generated as a prototype implementation of a module
+// created in component editor.  It ties off all outputs to ground and
+// ignores all inputs.  It needs to be edited to make it do something
+// useful.
+// 
+// This file will not be automatically regenerated.  You should check it in
+// to your version control system if you want to keep it.
+
+`timescale 1 ps / 1 ps
+module my_aes_ip (
+		input  wire [3:0]  aps_s0_paddr,   // aps_s0.paddr
+		input  wire        aps_s0_psel,    //       .psel
+		input  wire        aps_s0_penable, //       .penable
+		input  wire        aps_s0_pwrite,  //       .pwrite
+		input  wire [31:0] aps_s0_pwdata,  //       .pwdata
+		output wire [31:0] aps_s0_prdata,  //       .prdata
+		output wire        aps_s0_pready,  //       .pready
+		input  wire        clock_clk,      //  clock.clk
+		input  wire        reset_reset     //  reset.reset
+	);
+
+	// TODO: Auto-generated HDL template
+
+	assign aps_s0_pready = 1'b0;
+
+	assign aps_s0_prdata = 32'b00000000000000000000000000000000;
+
+endmodule
